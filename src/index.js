@@ -1,3 +1,6 @@
+import 'core-js/stable';
+import "regenerator-runtime/runtime"
+
 import {Toasted as T} from './js/toast';
 import ToastComponent from './toast.vue';
 

@@ -48,6 +48,7 @@
     "hammerjs": "^2.0.8",
     "node-sass": "^4.14.1",
     "postcss-loader": "^2.1.6",
+    "regenerator-runtime": "^0.13.7",
     "requirejs": "^2.3.6",
     "sass-loader": "^6.0.7",
     "shortid": "^2.2.15",
