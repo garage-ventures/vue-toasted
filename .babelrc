@@ -1,7 +1,14 @@
 {
   "presets": [
-    ["latest", {
-      "es2015": { "modules": false }
-    }]
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "ie": 9
+        },
+        "useBuiltIns": "usage",
+        "corejs": "3.6"
+      }
+    ]
   ]
 }
